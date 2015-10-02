@@ -1,0 +1,25 @@
+{
+  "name": "br-checkbox",
+  "version": "1.0.0",
+  "homepage": "https://github.com/bed-rock/br-checkbox",
+  "authors": [
+    "cbfranca <cleidsonbf@gmail.com>"
+  ],
+  "description": "",
+  "main": "br-checkbox.html",
+  "moduleType": [],
+  "keywords": [
+    "bedrock",
+    "webcomponents",
+    "polymer",
+    "checkbox"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
