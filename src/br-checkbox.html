@@ -33,7 +33,11 @@
 		ready: function () {
 
 			this.hasError = false;
-			this.isValidForm = false;
+
+			if(this.required)
+				this.isValidForm = false;
+			else
+				this.isValidForm = true;
 
 			var formField = this.$$('.form_field');
 
