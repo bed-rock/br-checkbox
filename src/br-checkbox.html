@@ -36,6 +36,7 @@
 
       _setModel: function (event) {
         this.model = event.target.checked.toString();
+        this.fire('on-br-checkbox-checked', { isChecked: event.target.checked });
       },
 
       _modelChanged: function () {
